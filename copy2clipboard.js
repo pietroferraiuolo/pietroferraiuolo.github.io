@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const copyEmailButton = document.getElementById('copyEmailButton');
     const emailLink = document.getElementById('emailLink');
 
-    copyEmailButton.addEventListener('click', function () {
+    emailLink.addEventListener('click', function (event) {
+        event.preventDefault(); // Previene il comportamento di default del link
         const email = emailLink.textContent;
         copyTextToClipboard(email);
     });
