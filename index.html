@@ -1,347 +1,637 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
-	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>Pietro Ferraiuolo</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<!-- The body is the location where your site's content will go -->
-	<body class="is-preload">
-
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
-			<div id="wrapper">
-
-					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
-						<!-- This is the main content of the front page -->
-						<div class="content">
-							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Pietro Ferraiuolo
-								</h1>
-								<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
-
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
-								<img src="images/CVPIC.jpg" style="width:280px; height:280px; object-fit: cover; border-radius:50%;">
-								<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
-								<p>
-									Lead Software Developer for ELT M4<br>
-									<strong><a href="http://www.arcetri.inaf.it/" target="_blank">INAF - Osservatorio Astrofisico di Arcetri</a></strong><br>
-									PI of BINCAT - INAF Fundamental Astrophysics Call 2024
-								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="PFCV.pdf" target="_blank">Curriculum Vitae</a>
-								</p>
-							</div>
-						</div>
-						<!-- This is the navigation menu -->
-						<nav>
-							<!-- This element makes an "Unordered List" -->
-							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
-									<a href="#about">About Me</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-								<li>
-									<a href="#leadership">Leadership</a>
-								</li>
-								<li>
-									<a href="#software">Software</a>
-								</li>
-								<li>
-									<a href="#publications">Publications</a>
-								</li>
-								<li>
-									<a href="#talks">Talks</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
-							</ul>
-						</nav>
-					</header>
-
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
-					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<p style="text-align: justify;">
-								I am an astrophysics researcher and scientific software developer at INAF Arcetri. My work focuses on adaptive optics instrumentation,
-								control and calibration pipelines for deformable mirrors, and data-driven methods for stellar system studies.
-							</p>
-							<p>
-								<strong>Education</strong>
-							</p>
-							<ul>
-								<li>Master's Degree in Astronomy and Astrophysics (2024), Sapienza University of Rome</li>
-								<li>Bachelor's Degree in Physics (2020), Sapienza University of Rome</li>
-							</ul>
-							<p>
-								<strong>Selected Training</strong>
-							</p>
-							<ul>
-								<li>SCIA3 - Scientific Communication in Astronomy (2025)</li>
-								<li>GISM3 Doctoral School (2025) - <a href="https://drive.google.com/file/d/1RR80-jJmlbgTl5Dl5EkzgE4iV-mH2pas/view" target="_blank">certificate</a></li>
-								<li>AI-PHY Doctoral School (2024) - <a href="https://drive.google.com/file/d/1nuGjUoGKD7ObFBU2cicM-DnC0NeYI-m6/view?usp=sharing" target="_blank">certificate</a></li>
-								<li>Course in Git, GitLab and CI/CD (2025)</li>
-							</ul>
-							<p>
-								<strong>Research Interests</strong>
-							</p>
-							<ul>
-								<li>Adaptive optics systems, deformable mirrors, and optical calibration</li>
-								<li>Galaxy and stellar dynamics, with emphasis on data-driven modeling</li>
-								<li>Software development for instrumentation testing and scientific analysis</li>
-							</ul>
-							<p>
-								<strong>Technical Skills</strong>
-							</p>
-							<ul>
-								<li>Python, Bash, R, C/C++, Linux, Git, LaTeX, Fortran90</li>
-								<li>Scientific workflows with local LLMs and agentic tooling</li>
-								<li>English C2, Italian native speaker</li>
-							</ul>
-						</article>
-
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<span class="image main">
-								<img src="images/splash.jpg" alt=""/>
-							</span>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-								-->
-							<p>
-								<strong>Current Activity</strong>
-							</p>
-							<p style="text-align: justify;">
-								<strong>BINCAT - Binary Catalog for AO Systems Performance Evaluation</strong><br>
-								<span style="font-weight:600; font-style:italic;">Principal Investigator, INAF Fundamental Astrophysics Call 2024</span><br>
-								<span style="font-weight:500; font-style:italic;">miniGrant awardee</span><br>
-								Awarded funding for the development of a catalog of close binary stars (20-200 mas) as a tool for commissioning
-								and optimizing adaptive optics (AO) systems on large telescopes. The project utilizes GAIA DR3 data to statistically
-								identify multiplicity indicators and optimize the parameter space through PSF simulations. The catalog will support
-								both current and next-generation AO instruments (e.g., MAVIS, MORFEO, ANDES).
-							</p>
-							<p style="text-align: justify;">
-								<strong>Optical Qualification of the Test Tower for the ELT's M4 Adaptive Mirror</strong><br>
-								Software development, debugging, and calibration for the M4 Deformable Mirror and Optical Test Tower within the ESO ELT project.
-								Activities include alignment controls, optical data production, and calibration analysis on the M4 demonstration prototype.
-							</p>
-							<p style="text-align: justify;">
-								<strong>Petalometer Metrology Bench Integration</strong><br>
-								Integration and alignment of a segmented mirror metrology test bench combining interferometric and absolute position sensors
-								for piston, tip, and tilt measurements.
-							</p>
-						</article>
-
-						<article id="leadership">
-							<h2 class="major">Leadership</h2>
-							<p style="text-align: justify;">
-								<strong>INAF Fundamental Astrophysics Grant (2024)</strong><br>
-								Principal Investigator of BINCAT, a funded miniGrant project for close-binary catalog construction and AO performance support.
-							</p>
-							<p style="text-align: justify;">
-								<strong>Lead Software Developer for ELT M4</strong><br>
-								Responsible for software architecture, diagnostics, and calibration workflows for deformable mirror commissioning and testing.
-							</p>
-						</article>
-
-						<article id="software">
-							<h2 class="major">Software</h2>
-							<p style="text-align: justify;">
-								<strong>OPTICALIB</strong><br>
-								Python package for optical calibration workflows of deformable mirrors.
-							</p>
-							<p style="text-align: justify;">
-								<strong>M4 Control and Calibration Software</strong><br>
-								Control and analysis software stack for the ESO ELT M4 mirror and the Optical Test Tower.
-							</p>
-							<p style="text-align: justify;">
-								<strong>GRASP</strong><br>
-								Globular clusteR Astrometry and Photometry Software.
-							</p>
-							<p style="text-align: justify;">
-								<strong>XuPy</strong><br>
-								CuPy interface for GPU-accelerated masked arrays.
-							</p>
-							<p>
-								<a href="https://github.com/pietroferraiuolo?tab=repositories" target="_blank">View all repositories on GitHub</a>
-							</p>
-						</article>
-
-						<article id="publications">
-							<h2 class="major">Publications</h2>
-							<p>
-								<strong>Status Legend:</strong> Published | Preprint | In preparation
-							</p>
-							<p>
-								<strong>In preparation</strong>
-							</p>
-							<ul>
-								<li>Subaperture Calibration of Deformable Mirrors for ELT-era DM size</li>
-								<li>Building a catalog of close binary stars through GAIA PSF simulations for ELT era AO systems</li>
-								<li>Integration and alignment of the Petalometer testbench at INAF Arcetri</li>
-								<li>Optical calibration of the ELT-M4: automated testing procedure and results on the prototype</li>
-								<li>Optical calibration of the ELT-M4: validation of local capacitive sensor calibration on the prototype</li>
-								<li>Optical calibration of ELT-M4: segment phasing procedure tested on the prototype</li>
-								<li>Novel approach to a stitched optical surface reconstruction</li>
-								<li>SPECULA: adoption and use cases of a scalable adaptive optics simulation framework</li>
-							</ul>
-							<p style="text-align: justify; font-size: 0.95em;">
-								Note: In-preparation entries are active manuscripts and title, author order, and journal target may change before submission.
-							</p>
-						</article>
-
-						<article id="talks">
-							<h2 class="major">Talks and Posters</h2>
-							<ul>
-								<li>
-									<strong>SPIE Astronomical Telescopes + Instrumentation 2026</strong> (Copenhagen, 5-10 Jul 2026)<br>
-									First author posters and co-authored contributions on BINCAT, Petalometer integration, and ELT-M4 calibration.
-									<a href="https://spie.org/conferences-and-exhibitions/astronomical-telescopes-and-instrumentation" target="_blank">Event link</a>
-								</li>
-								<li>
-									<strong>V ADONI Workshop 2026</strong> (Rome, 21-24 Apr 2026)<br>
-									Talk on OPTICALIB software for AO deformable mirror calibration.
-									<a href="https://indico.ict.inaf.it/event/3479/page/1914-adoni-2026" target="_blank">Event link</a>
-								</li>
-								<li>
-									<strong>AO4ELT8</strong> (Vina del Mar, 27-31 Oct 2025)<br>
-									Poster presentation of the BINCAT project.
-									<a href="https://ao4elt8.sciencesconf.org/?lang=en" target="_blank">Event link</a>
-								</li>
-							</ul>
-						</article>
-
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<style>
-        	   			 			#copyMessage {
-            	        						display: none;
-            								color: #c0c0c0;
-            								font-size: 0.9em;
-            								margin-top: 5px;
-        	    						}
-    							</style>
-							<h2 class="major">Contact</h2>
-							<p> 
-								<b>Email: </b><a href="#" id="emailLink">pietro.ferraiuolo@inaf.it</a>
-								<span id="copyMessage">      E-mail Copied</span>
-							</p>
-							<p> 
-								<b>Address: </b><a href="https://maps.app.goo.gl/58EDheE12uo47QCZ8" target="_blank">Piazzale Enrico Fermi, 5 - Firenze</a> 
-							</p>
-							<p>
-								<b>Website: </b><a href="https://pietroferraiuolo.github.io/" target="_blank">pietroferraiuolo.github.io</a>
-							</p>
-
-							<!-- 	Here are the fancy icons that link to your social media.
-								These icons are rendered using Font Awesome fonts, and you can find more icons
-								here: https://fontawesome.com/icons
-							-->
-							<ul class="icons">
-								<!-- The LInkedin icon -->
-								<li>
-									<a href="https://www.linkedin.com/in/pietro-ferraiuolo-55475b2b2/" target="_blank" class="icon fa-linkedin">
-										<span class="label">Linkedin</span>
-									</a>
-								</li>
-								<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/pietroferraiuolo" target="_blank" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
-
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
-							</ul>
-						</article>
-					</div>
-
-					<!-- This is the footer that appears at the bottom of the page -->
-					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
-							this is your work.
-						-->
-						<p class="copyright">&copy; PietroFerraiuolo. Design: <a href="https://html5up.net">HTML5 UP</a>.<br>
-							Image Credits: <a href="https://esahubble.org/images/heic0611b/" target="_blank">ESA/Hubble Space Telescope - Ultra Deep Field</a>
-						</p>
-					</footer>
-
-			</div>
-
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
-			<div id="bg"></div>
-
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/copy2clipboard.js"></script>
-
-	</body>
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pietro Ferraiuolo — Astrophysics Researcher &amp; Scientific Software Developer</title>
+  <meta name="description" content="Pietro Ferraiuolo — astrophysics researcher and scientific software developer at INAF Osservatorio Astrofisico di Arcetri. Lead Software Developer for the ESO ELT M4 deformable mirror, PI of the BINCAT project.">
+  <meta name="author" content="Pietro Ferraiuolo">
+  <link rel="canonical" href="https://pietroferraiuolo.github.io/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Pietro Ferraiuolo">
+  <meta property="og:title" content="Pietro Ferraiuolo — Astrophysics &amp; Scientific Software">
+  <meta property="og:description" content="Lead Software Developer for the ESO ELT M4 · PI of BINCAT · INAF — Osservatorio Astrofisico di Arcetri">
+  <meta property="og:url" content="https://pietroferraiuolo.github.io/">
+  <meta property="og:image" content="https://pietroferraiuolo.github.io/images/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pietro Ferraiuolo — Astrophysics &amp; Scientific Software">
+  <meta name="twitter:description" content="Lead Software Developer for the ESO ELT M4 · PI of BINCAT · INAF Arcetri">
+  <meta name="twitter:image" content="https://pietroferraiuolo.github.io/images/og-image.jpg">
+  <meta name="theme-color" content="#0b0e14" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#faf9f5" media="(prefers-color-scheme: light)">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* Set theme + js flag before first paint (no flash; no-JS keeps defaults). */
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try {
+        var t = localStorage.getItem('pf-theme');
+        if (t !== 'dark' && t !== 'light') {
+          t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        d.setAttribute('data-theme', t);
+      } catch (e) { /* storage blocked → keep default dark */ }
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pietro Ferraiuolo",
+    "url": "https://pietroferraiuolo.github.io/",
+    "jobTitle": "Lead Software Developer for the ESO ELT M4 deformable mirror",
+    "description": "Astrophysics researcher and scientific software developer; PI of the BINCAT project (INAF Fundamental Astrophysics Call 2024).",
+    "email": "mailto:pietro.ferraiuolo@inaf.it",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "INAF — Osservatorio Astrofisico di Arcetri",
+      "url": "https://www.arcetri.inaf.it/"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Largo Enrico Fermi 5",
+      "postalCode": "50125",
+      "addressLocality": "Firenze",
+      "addressCountry": "IT"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Sapienza University of Rome"
+    },
+    "knowsLanguage": ["it", "en"],
+    "knowsAbout": ["Adaptive optics", "Deformable mirrors", "Optical calibration", "Scientific software", "Stellar dynamics"],
+    "sameAs": [
+      "https://orcid.org/0009-0009-9597-2921",
+      "https://github.com/pietroferraiuolo",
+      "https://www.linkedin.com/in/pietro-ferraiuolo-55475b2b2/"
+    ]
+  }
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#hero" aria-label="Pietro Ferraiuolo — back to top">
+      <svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+        <g transform="translate(32 32) scale(1.28)" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round">
+          <polygon points="7,0 3.5,6.06 -3.5,6.06 -7,0 -3.5,-6.06 3.5,-6.06" transform="translate(0 -12.12)"/>
+          <polygon points="7,0 3.5,6.06 -3.5,6.06 -7,0 -3.5,-6.06 3.5,-6.06" transform="translate(10.5 -6.06)"/>
+          <polygon points="7,0 3.5,6.06 -3.5,6.06 -7,0 -3.5,-6.06 3.5,-6.06" transform="translate(10.5 6.06)"/>
+          <polygon points="7,0 3.5,6.06 -3.5,6.06 -7,0 -3.5,-6.06 3.5,-6.06" transform="translate(0 12.12)"/>
+          <polygon points="7,0 3.5,6.06 -3.5,6.06 -7,0 -3.5,-6.06 3.5,-6.06" transform="translate(-10.5 6.06)"/>
+          <polygon points="7,0 3.5,6.06 -3.5,6.06 -7,0 -3.5,-6.06 3.5,-6.06" transform="translate(-10.5 -6.06)"/>
+        </g>
+        <polygon points="7,0 3.5,6.06 -3.5,6.06 -7,0 -3.5,-6.06 3.5,-6.06" transform="translate(32 32) scale(1.28)" fill="currentColor"/>
+      </svg>
+      <span>Pietro Ferraiuolo</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#outreach">Outreach</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="drawer-only"><a class="btn btn-primary btn-sm" href="PFCV.pdf" target="_blank" rel="noopener">Download CV</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle colour theme">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+      </button>
+      <a class="btn btn-primary btn-sm nav-cv" href="PFCV.pdf" target="_blank" rel="noopener">CV</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg class="i-burger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+        <svg class="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12"/><path d="M18 6 6 18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="hero" id="hero">
+  <picture class="hero-bg">
+    <source srcset="images/background.webp" type="image/webp">
+    <img src="images/background.jpg" alt="" width="1920" height="1920" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <picture>
+      <source srcset="images/cvpic.webp" type="image/webp">
+      <img class="hero-photo" src="images/CVPIC.jpg" alt="Portrait of Pietro Ferraiuolo" width="560" height="560" decoding="async">
+    </picture>
+    <h1>Pietro Ferraiuolo</h1>
+    <div class="hero-roles">
+      <span>Lead Software Developer — ESO ELT M4</span>
+      <span>Principal Investigator — BINCAT</span>
+    </div>
+    <p class="hero-affil"><a href="https://www.arcetri.inaf.it/" target="_blank" rel="noopener">INAF — Osservatorio Astrofisico di Arcetri</a> · Firenze, Italy</p>
+    <p class="hero-tagline">Adaptive-optics instrumentation · control &amp; calibration software for segmented deformable mirrors · data-driven studies of stellar systems, from globular clusters to close binaries.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="PFCV.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Curriculum Vitae</a>
+      <a class="btn btn-ghost" href="https://orcid.org/0009-0009-9597-2921" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.72 3.038h1.44v10.041h-1.44V7.416zm3.563 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.44 1.303v7.444h2.288c3.019 0 4.097-2.081 4.097-3.731 0-1.847-1.238-3.713-4.097-3.713h-2.288z"/></svg>ORCID</a>
+      <a class="btn btn-ghost" href="https://github.com/pietroferraiuolo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/pietro-ferraiuolo-55475b2b2/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a>
+      <button class="btn btn-ghost" type="button" id="hero-copy-email" data-user="pietro.ferraiuolo" data-domain="inaf.it"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>Email</button>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#highlights" aria-label="Jump to highlights"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+</section>
+<section class="section section-tight" id="highlights" aria-label="Career highlights">
+  <div class="container bento">
+    <article class="bento-card tall reveal">
+      <div class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+      <h3>Principal Investigator</h3>
+      <p><strong>BINCAT</strong> — Binary Catalog for AO Systems Performance Evaluation, funded by the <strong>INAF Fundamental Astrophysics Call 2024</strong> (miniGrant awardee).</p>
+      <p>A Gaia DR3-based catalog of close binary stars (20–200 mas) to commission and optimise adaptive optics on current and next-generation ELT instruments.</p>
+      <div class="bento-link"><a href="#research">More on BINCAT</a></div>
+    </article>
+    <article class="bento-card span2 reveal" data-delay="1">
+      <div class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+      <h3>Lead Software Developer — ESO ELT M4</h3>
+      <p>Research fellowship on the optical qualification of the Test Tower for the M4 adaptive mirror and the DP prototype: control software, diagnostics and calibration pipelines for the largest deformable mirror ever built for an ELT.</p>
+      <div class="bento-link"><a href="#research">Research details</a></div>
+    </article>
+    <article class="bento-card reveal" data-delay="2">
+      <div class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></div>
+      <div class="big-num">13</div>
+      <h3>Publications</h3>
+      <p>4 as first author — SPIE Proc. 2026 &amp; INAF software record.</p>
+      <div class="bento-link"><a href="#publications">Full list</a></div>
+    </article>
+    <article class="bento-card reveal" data-delay="3">
+      <div class="bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></div>
+      <div class="big-num">4+</div>
+      <h3>Open-source tools</h3>
+      <p>OPTICALIB · M4 · GRASP · XuPy</p>
+      <div class="bento-link"><a href="#software">Software</a></div>
+    </article>
+  </div>
+</section>
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Profile</p>
+      <h2 class="section-title">About me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="prose reveal">
+        <p class="lead">I am an astrophysics researcher and scientific software developer at <a href="https://www.arcetri.inaf.it/" target="_blank" rel="noopener">INAF — Osservatorio Astrofisico di Arcetri</a> in Florence.</p>
+        <p>My work sits at the intersection of adaptive-optics instrumentation and data-driven astrophysics: I develop control and optical-calibration software for the <strong>ESO ELT M4</strong> deformable mirror and its Optical Test Tower, I lead the metrology-bench integration of the <strong>Petalometer</strong> segmented mirror, and as PI of <strong>BINCAT</strong> I am building a catalog of close binary stars to evaluate and optimise AO performance for the ELT era.</p>
+        <p>I graduated in Astronomy &amp; Astrophysics from <strong>Sapienza University of Rome</strong> (110, thesis on globular-cluster dynamics with Gaia DR3), and I care deeply about modern software practice — Git/CI-CD, GPU computing, and local-LLM agentic workflows — applied to scientific instrumentation.</p>
+        <h3 class="subhead">Education &amp; training</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <p class="tl-date">Apr 2024 — present</p>
+            <h3>Research Fellowship — Lead Software Developer for M4</h3>
+            <p class="tl-org">INAF — Osservatorio Astrofisico di Arcetri</p>
+            <p>“Optical Qualification of the Test Tower for the ELT's M4 Adaptive Mirror and the DP Prototype”, within the ESO E-ELT project.</p>
+          </div>
+          <div class="tl-item">
+            <p class="tl-date">Jan 2021 — Jan 2024</p>
+            <h3>MSc in Astronomy &amp; Astrophysics — grade 110</h3>
+            <p class="tl-org">Sapienza University of Rome</p>
+            <p>Thesis: <em>Dynamics of Globular Clusters: the Effective Potential through the Gaia Data Release 3</em>.</p>
+          </div>
+          <div class="tl-item">
+            <p class="tl-date">2020</p>
+            <h3>BSc in Physics</h3>
+            <p class="tl-org">Sapienza University of Rome</p>
+          </div>
+          <div class="tl-item muted-dot">
+            <p class="tl-date">2024 — 2025 · Selected schools &amp; courses</p>
+            <h3>Doctoral schools &amp; professional training</h3>
+            <p>
+              SCIA3 — Scientific Communication in Astronomy, Bertinoro (2025) ·
+              <a href="https://ismgalaxies2025.sciencesconf.org/" target="_blank" rel="noopener">GISM3</a> doctoral school, Banyuls-sur-Mer (<a href="https://drive.google.com/file/d/1RR80-jJmlbgTl5Dl5EkzgE4iV-mH2pas/view" target="_blank" rel="noopener">certificate</a>) ·
+              <a href="https://indico.ict.inaf.it/event/3067/" target="_blank" rel="noopener">Git, GitLab &amp; CI/CD</a>, CNR Bologna &amp; INAF (2025) ·
+              <a href="https://agenda.infn.it/event/40881/" target="_blank" rel="noopener">AI-PHY</a> doctoral school, Monopoli (<a href="https://drive.google.com/file/d/1nuGjUoGKD7ObFBU2cicM-DnC0NeYI-m6/view?usp=sharing" target="_blank" rel="noopener">certificate</a>) ·
+              ESOL International <strong>C2</strong> — British Institutes (90/100).
+            </p>
+          </div>
+          <div class="tl-item muted-dot">
+            <p class="tl-date">2018 — 2022</p>
+            <h3>Learning Tutor — mathematics &amp; physics</h3>
+            <p>Mentored pre-teens and teenagers with SEN/SLD, coordinating with families, schools and therapists (Ohana Cooperativa Sociale and privately).</p>
+          </div>
+        </div>
+      </div>
+      <aside class="reveal" data-delay="1" aria-label="Skills and awards">
+        <div class="skill-group">
+          <h3>Programming &amp; tools</h3>
+          <span class="chip">Python</span><span class="chip">C / C++</span><span class="chip">Fortran90</span><span class="chip">Bash</span><span class="chip">R</span><span class="chip">Git</span><span class="chip">Linux</span><span class="chip">LaTeX</span>
+        </div>
+        <div class="skill-group">
+          <h3>AI tools</h3>
+          <span class="chip">Local agentic workflows (vLLM/Ollama · Cline)</span>
+          <span class="chip">Local LLM inference (Ollama · OpenWeb-UI)</span>
+        </div>
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <span class="chip">Italian — native</span>
+          <span class="chip">English — C2</span>
+        </div>
+        <div class="award-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          <div>
+            <h3>Grant di Ricerca Fondamentale — INAF</h3>
+            <p>Funding awarded in the Fundamental Astrophysics Call 2024 as Principal Investigator of the BINCAT project (Feb 2025).</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+<section class="section" id="research">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">What I work on</p>
+      <h2 class="section-title">Research</h2>
+      <p class="section-sub">Adaptive-optics instrumentation for the ELT era, metrology of segmented mirrors, and data-driven stellar astrophysics.</p>
+    </div>
+    <div class="rgrid">
+      <article class="rcard reveal">
+        <div class="r-meta"><span class="badge">2024 — present</span><span class="badge badge-soft">ESO ELT</span></div>
+        <h3>M4 deformable mirror &amp; Optical Test Tower</h3>
+        <p class="r-role">Lead Software Developer · Research Fellowship</p>
+        <p>“Optical Qualification of the Test Tower for the ELT's M4 Adaptive Mirror and the DP Prototype”, within the ESO E-ELT project.</p>
+        <ul class="dot-list">
+          <li>Control software for the Optical Test Tower: motors for mechanical and optical alignment.</li>
+          <li>Software for the Demonstration Prototype and the M4 deformable mirror.</li>
+          <li>Data production &amp; analysis for the M4 DM optical characterisation and calibration.</li>
+        </ul>
+      </article>
+      <article class="rcard reveal" data-delay="1">
+        <div class="r-meta"><span class="badge">2025 — present</span><span class="badge badge-soft">PI</span></div>
+        <h3>BINCAT</h3>
+        <p class="r-role">Principal Investigator · INAF Fundamental Astrophysics Call 2024 (miniGrant)</p>
+        <p>Binary Catalog for AO Systems Performance Evaluation: a catalog of close binary stars (20–200 mas) as a commissioning and optimisation tool for AO on large telescopes.</p>
+        <ul class="dot-list">
+          <li>Statistical identification of multiplicity indicators in Gaia DR3.</li>
+          <li>Parameter-space optimisation through PSF simulations.</li>
+          <li>Support for current &amp; next-generation AO instruments: MAVIS, MORFEO, ANDES.</li>
+        </ul>
+        <div class="r-foot">
+          <a class="pill" href="https://github.com/pietroferraiuolo/BINCAT" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>Repository</a>
+          <a class="pill" href="https://doi.org/10.1117/12.3102541" target="_blank" rel="noopener">First paper (DOI)</a>
+        </div>
+      </article>
+      <article class="rcard reveal" data-delay="2">
+        <div class="r-meta"><span class="badge">2025 — present</span><span class="badge badge-soft">Metrology</span></div>
+        <h3>Petalometer bench</h3>
+        <p class="r-role">Integration &amp; alignment · INAF Arcetri</p>
+        <p>Metrology-bench integration for the PetalMirror (PTM): a 6-segment actuated mirror with 3 piezo actuators per segment providing piston, tip &amp; tilt control.</p>
+        <ul class="dot-list">
+          <li>Fizeau interferometer — absolute tip/tilt measurement and correction.</li>
+          <li>Sensor for Phase Lag (SPL) — differential piston vs. the central fixed segment, on a 6&nbsp;mm laser focus centred on the gap.</li>
+          <li>AttoCube interferometer — absolute height in a 6-laser configuration covering all segments.</li>
+        </ul>
+        <div class="r-foot"><a class="pill" href="https://doi.org/10.1117/12.3105136" target="_blank" rel="noopener">SPIE 2026 paper (DOI)</a></div>
+      </article>
+    </div>
+    <h3 class="subhead reveal">Past research</h3>
+    <div class="rgrid">
+      <article class="rcard reveal">
+        <h3>Globular-cluster dynamics with Gaia DR3</h3>
+        <p class="r-role">Master's thesis · 2022 — 2023</p>
+        <p>Extraction of the effective gravitational potential of globular clusters from phase-space data and internal velocity distributions — the first observational counterpart to its theoretical derivation.</p>
+      </article>
+      <article class="rcard reveal" data-delay="1">
+        <h3>SZ-signal simulations for MUSTANG-2</h3>
+        <p class="r-role">MSc research experience · 2022</p>
+        <p>Simulation of point-like and extended Sunyaev–Zel'dovich signals from the hot gas of merging galaxy clusters, observed through a CCD array similar to the GBT's MUSTANG-2 instrument, with filtering optimisation (with Prof. E. Battistelli's team, Sapienza).</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Output · 13 papers · 4 first-author</p>
+      <h2 class="section-title">Publications</h2>
+      <p class="section-sub">Refereed contributions in the <em>Proc. SPIE Astronomical Telescopes + Instrumentation 2026</em> (Copenhagen) and the INAF software archive. The canonical, always-updated list lives on <a href="https://orcid.org/0009-0009-9597-2921" target="_blank" rel="noopener">ORCID</a>.</p>
+    </div>
+    <ol class="pubs">
+      <li class="pub is-first reveal">
+        <div class="pub-index">1</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Building a catalog of visually-close binary stars through Gaia PSF simulations for ELT era AO systems</h3>
+          <p class="pub-authors"><strong>P. Ferraiuolo</strong>, R. Briguglio, G. Agapito, J.-P. Véran</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <span class="badge">First author</span>
+            <a class="pill" href="https://doi.org/10.1117/12.3102541" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub is-first reveal">
+        <div class="pub-index">2</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Integration and alignment of the Petalometer testbench at INAF-Arcetri</h3>
+          <p class="pub-authors"><strong>P. Ferraiuolo</strong>, M. Bonaglia, E. Pinna, R. Briguglio, N. Azzaroli, L. Carbonaro, G. Carlà, T. Lapucci, P. Spanò, R. Tomelleri, G. Negrini, C. Morando, F. Rossi, M. Menessini, S. Esposito</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <span class="badge">First author</span>
+            <a class="pill" href="https://doi.org/10.1117/12.3105136" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub is-first reveal">
+        <div class="pub-index">3</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Optical calibration of ELT-M4: segment phasing procedure tested on the prototype</h3>
+          <p class="pub-authors"><strong>P. Ferraiuolo</strong>, R. Briguglio, N. Azzaroli, M. Xompero, G. Pariani, L. Oggioni, R. Grignaffini, A. Riccardi</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <span class="badge">First author</span>
+            <a class="pill" href="https://doi.org/10.1117/12.3104405" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub is-first reveal">
+        <div class="pub-index">4</div>
+        <div class="pub-body">
+          <h3 class="pub-title">OPTICALIB: a Python framework for adaptive optics experimentation</h3>
+          <p class="pub-authors"><strong>P. Ferraiuolo</strong>, M. Xompero, R. Briguglio, M. Menessini</p>
+          <p class="pub-venue">INAF Open Library — software record · 2026</p>
+          <div class="pub-tags">
+            <span class="badge">First author</span>
+            <span class="badge badge-soft">Software</span>
+            <a class="pill" href="https://doi.org/10.20371/INAF/SW/2026_00013" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">5</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Optical surface and cavity reconstruction from sub-aperture measurements</h3>
+          <p class="pub-authors">M. Xompero, N. Azzaroli, A. Riccardi, R. Briguglio, G. Pariani, L. Oggioni, <strong>P. Ferraiuolo</strong>, M. Menessini, C. Scandaglia</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3102974" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">6</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Subaperture calibration of deformable mirror for ELT-era DM size</h3>
+          <p class="pub-authors">N. Azzaroli, R. Briguglio, <strong>P. Ferraiuolo</strong>, L. Oggioni, G. Pariani, C. Selmi, M. Xompero, A. Riccardi</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3105112" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">7</div>
+        <div class="pub-body">
+          <h3 class="pub-title">EKARUS at Asiago Observatory: optomechanical design and AIT procedures of the visible stage</h3>
+          <p class="pub-authors">M. D'Ambrogio, D. Greggio, C. T. Héritier, M. A. Alagao, M. Y. Bournane, E. Carolo, A. Ballone, S. Di Rosa, I. Di Antonio, E. Muslimov, A. Magniez, M. Menessini, <strong>P. Ferraiuolo</strong></p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3102910" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">8</div>
+        <div class="pub-body">
+          <h3 class="pub-title">EKARUS at the Asiago Observatory: towards the first light of a new XAO R&amp;D platform</h3>
+          <p class="pub-authors">C. T. Héritier, D. Greggio, M. A. Alagao, M. Asghar, … <strong>P. Ferraiuolo</strong>, … et al. <details><summary>all 57 authors</summary><span class="all-authors">C. T. Héritier, D. Greggio, M. A. Alagao, M. Asghar, A. Ballone, A. Balestra, D. Barr, A. Baruffolo, F. Battaini, M. Bonaglia, M. Y. Bournane, L. Busoni, E. Carolo, P. Cerpelloni, S. Cetre, V. Chambouleyron, E. Costa, L. Cortese, M. D'Ambrogio, I. Di Antonio, S. Di Filippo, B. Di Francesco, G. Di Rico, S. Di Rosa, D. Diretto, S. Esposito, J. Farinato, R. Fétick, <strong>P. Ferraiuolo</strong>, T. Forte, A. Frigo, T. Fusco, S. Lampitelli, T. Lapucci, L. Lessio, A. Lorenzetto, T. Machado, A. Magniez, L. Marafatto, M. Menessini, L. Merli, T. Morris, M. Mosele, E. Muslimov, B. Neichel, F. Oyarzùn, O. Rebrysh, G. Rodeghiero, S. Sacquegna, J.-F. Sauvage, D. Selvestrel, A. Striffling, L. Tomasella, L. Traverso, G. Umbriaco, R. Van Gaalen, D. Vassalo</span></details></p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3102925" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">9</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Laboratory validation of the CiaoCiao wavefront sensor for phase discontinuity detection in fragmented-pupil optical telescopes</h3>
+          <p class="pub-authors">M. Bazzicalupo, L. Busoni, G. Carlà, N. Azzaroli, A. T. Puglisi, G. Agapito, <strong>P. Ferraiuolo</strong>, R. Briguglio</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3102760" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">10</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Optical calibration of the ELT-M4: automated testing procedure and results on the prototype</h3>
+          <p class="pub-authors">R. Briguglio, <strong>P. Ferraiuolo</strong>, N. Azzaroli, M. Xompero, G. Pariani, L. Oggioni, R. Grignaffini, M. Menessini, C. Scandaglia, A. Riccardi, A. Kellerer, E. Vernet</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3105387" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">11</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Optical calibration of the ELT-M4: validation of the local calibration of capacitive position sensors on the demonstration prototype</h3>
+          <p class="pub-authors">R. Grignaffini, L. Oggioni, R. Briguglio, G. Pariani, <strong>P. Ferraiuolo</strong>, M. Xompero, N. Azzaroli, M. Menessini</p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3103739" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">12</div>
+        <div class="pub-body">
+          <h3 class="pub-title">SPECULA: adoption, developments, and use cases of a scalable adaptive optics simulation framework</h3>
+          <p class="pub-authors">F. Rossi, G. Agapito, A. T. Puglisi, B. Stadler, D. Vassallo, M. Menessini, <strong>P. Ferraiuolo</strong>, et al. <details><summary>all 27 authors</summary><span class="all-authors">F. Rossi, G. Agapito, A. T. Puglisi, B. Stadler, D. Vassallo, M. Menessini, <strong>P. Ferraiuolo</strong>, C. T. Héritier, E. Pinna, J.-P. Véran, G. Carlà, L. Busoni, A. Turchi, L. Monti, C. Plantet, L. Cortese, C. Arcidiacono, F. Maio, D. Fedele, K. J. Jackson, M. van Kooten, L. Merli, M. Bonaglia, G. Benigni, E. Bellone de Grecis, M. Bazzicalupo, J. Lin</span></details></p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3103973" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-index">13</div>
+        <div class="pub-body">
+          <h3 class="pub-title">Validating and characterising the Ingot WFS in a new ELT-like test bench</h3>
+          <p class="pub-authors">T. G. Machado, K. K. R. Santhakumari, D. Greggio, E. Portaluri, C. Arcidiacono, A. Ballone, F. Battaini, M. Bergomi, <strong>P. Ferraiuolo</strong>, et al. <details><summary>all 19 authors</summary><span class="all-authors">T. G. Machado, K. K. R. Santhakumari, D. Greggio, E. Portaluri, C. Arcidiacono, A. Ballone, F. Battaini, M. Bergomi, <strong>P. Ferraiuolo</strong>, S. Di Filippo, M. Dima, G. Di Rico, J. Farinato, L. Lessio, D. Magrin, L. Marafatto, O. Rebrysh, V. Viotto, R. Ragazzoni</span></details></p>
+          <p class="pub-venue">Proc. SPIE Astronomical Telescopes + Instrumentation, Copenhagen · 2026</p>
+          <div class="pub-tags">
+            <a class="pill" href="https://doi.org/10.1117/12.3105109" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI</a>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="section" id="software">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Code</p>
+      <h2 class="section-title">Software</h2>
+      <p class="section-sub">Scientific software for AO instrumentation control, optical calibration and astrophysical analysis. Everything public lives on <a href="https://github.com/pietroferraiuolo?tab=repositories" target="_blank" rel="noopener">GitHub</a>.</p>
+    </div>
+    <div class="sgrid">
+      <article class="scard reveal">
+        <p class="s-kind">Python · AO calibration</p>
+        <h3>OPTICALIB</h3>
+        <p>Python framework for OPTIcal CALibration of deformable mirrors — experimentation and automated calibration workflows for adaptive optics.</p>
+        <div class="r-foot">
+          <a class="pill" href="https://doi.org/10.20371/INAF/SW/2026_00013" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>DOI record</a>
+        </div>
+      </article>
+      <article class="scard reveal" data-delay="1">
+        <p class="s-kind">Python · Instrumentation</p>
+        <h3>M4 control &amp; calibration</h3>
+        <p>Software stack for the control and calibration of the ESO ELT M4 deformable mirror and of its Optical Test Tower (OTT), developed within the ESO E-ELT project.</p>
+        <div class="r-foot"><span class="chip">ESO / INAF collaboration</span></div>
+      </article>
+      <article class="scard reveal" data-delay="2">
+        <p class="s-kind">Python · Astrophysics</p>
+        <h3>GRASP</h3>
+        <p>Globular clusteR Astrometry and Photometry Software — analysis of cluster phase-space data from Gaia.</p>
+        <div class="r-foot">
+          <a class="pill" href="https://github.com/pietroferraiuolo/GRASP" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub</a>
+        </div>
+      </article>
+      <article class="scard reveal" data-delay="3">
+        <p class="s-kind">Python · GPU</p>
+        <h3>XuPy</h3>
+        <p>CuPy interface for GPU-accelerated masked arrays.</p>
+        <div class="r-foot">
+          <a class="pill" href="https://github.com/pietroferraiuolo/XuPy" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub</a>
+        </div>
+      </article>
+    </div>
+    <p class="note reveal">Also public: <a href="https://github.com/pietroferraiuolo/BINCAT" target="_blank" rel="noopener">BINCAT</a> · <a href="https://github.com/pietroferraiuolo/alpao_simulator" target="_blank" rel="noopener">alpao_simulator</a></p>
+  </div>
+</section>
+<section class="section" id="talks">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Dissemination</p>
+      <h2 class="section-title">Talks &amp; posters</h2>
+    </div>
+    <div class="timeline reveal">
+      <div class="tl-item">
+        <p class="tl-date">5 — 10 Jul 2026 · Copenhagen, Denmark</p>
+        <h3>SPIE Astronomical Telescopes + Instrumentation 2026</h3>
+        <p>First author of 3 presentations, plus 9 co-authored conference papers:</p>
+        <ul class="dot-list">
+          <li>Building a catalog of visually-close binary stars through Gaia PSF simulations for ELT era AO systems — <a href="https://doi.org/10.1117/12.3102541" target="_blank" rel="noopener">DOI</a></li>
+          <li>Integration and alignment of the Petalometer testbench at INAF-Arcetri — <a href="https://doi.org/10.1117/12.3105136" target="_blank" rel="noopener">DOI</a></li>
+          <li>Optical calibration of ELT-M4: segment phasing procedure tested on the prototype — <a href="https://doi.org/10.1117/12.3104405" target="_blank" rel="noopener">DOI</a></li>
+        </ul>
+        <div class="talk-links">
+          <a class="pill" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/browse/SPIE-Astronomical-Telescopes-Instrumentation/2026" target="_blank" rel="noopener">Proceedings</a>
+        </div>
+      </div>
+      <div class="tl-item">
+        <p class="tl-date">21 — 24 Apr 2026 · Rome, Italy</p>
+        <h3>V ADONI Workshop</h3>
+        <p>Talk on <strong>OPTICALIB</strong>, developed within the AO Deformable Mirrors group at INAF-OAA.</p>
+        <div class="talk-links">
+          <a class="pill" href="https://indico.ict.inaf.it/event/3479/page/1914-adoni-2026" target="_blank" rel="noopener">Event</a>
+        </div>
+      </div>
+      <div class="tl-item">
+        <p class="tl-date">27 — 31 Oct 2025 · Viña del Mar, Chile</p>
+        <h3>AO4ELT8</h3>
+        <p>Poster presentation of the <strong>BINCAT</strong> project.</p>
+        <div class="talk-links">
+          <a class="pill" href="https://ao4elt8.sciencesconf.org/?lang=en" target="_blank" rel="noopener">Event</a>
+        </div>
+      </div>
+      <div class="tl-item muted-dot">
+        <p class="tl-date">19 Nov 2024 · INAF Arcetri, Firenze</p>
+        <h3>AstroBigné</h3>
+        <p>Short talk on past and present research.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="outreach">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Public engagement</p>
+      <h2 class="section-title">Outreach</h2>
+    </div>
+    <div class="rgrid">
+      <article class="rcard reveal">
+        <div class="r-meta"><span class="badge badge-soft">Sep 2024 — present</span></div>
+        <h3>European Bright Night for Researchers</h3>
+        <p>Engaging the general public with astrophysical themes and with the everyday work of researchers.</p>
+      </article>
+      <article class="rcard reveal" data-delay="1">
+        <div class="r-meta"><span class="badge badge-soft">Apr 2024 — present</span></div>
+        <h3>Outreach at the Arcetri Observatory</h3>
+        <ul class="dot-list">
+          <li>Tour guide of the Observatory for schools and the general public.</li>
+          <li>Technician &amp; astronomer for public observation nights with the MEADE telescopes.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Get in touch</p>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-row">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+          <div>
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:pietro.ferraiuolo@inaf.it">pietro.ferraiuolo@inaf.it</a>
+              <button class="btn btn-ghost btn-sm" type="button" id="copy-email" data-user="pietro.ferraiuolo" data-domain="inaf.it"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>Copy</button>
+            </p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <h3>Address</h3>
+            <p><a href="https://maps.app.goo.gl/58EDheE12uo47QCZ8" target="_blank" rel="noopener">Largo Enrico Fermi, 5 — 50125 Firenze, Italy</a><br><span class="muted">INAF — Osservatorio Astrofisico di Arcetri</span></p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div>
+          <div>
+            <h3>Website</h3>
+            <p><a href="https://pietroferraiuolo.github.io/">pietroferraiuolo.github.io</a></p>
+          </div>
+        </div>
+      </div>
+      <aside class="contact-aside reveal" data-delay="1">
+        <h3 class="aside-title">Find me online</h3>
+        <div class="socials">
+          <a class="social" href="https://github.com/pietroferraiuolo" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+          <a class="social" href="https://www.linkedin.com/in/pietro-ferraiuolo-55475b2b2/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a class="social" href="https://orcid.org/0009-0009-9597-2921" target="_blank" rel="noopener" aria-label="ORCID"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.72 3.038h1.44v10.041h-1.44V7.416zm3.563 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.44 1.303v7.444h2.288c3.019 0 4.097-2.081 4.097-3.731 0-1.847-1.238-3.713-4.097-3.713h-2.288z"/></svg></a>
+          <a class="social" href="PFCV.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae (PDF)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></a>
+        </div>
+        <p class="muted aside-note">Open to collaborations on adaptive-optics instrumentation, AO simulation &amp; calibration software, and binary-star catalogs for ELT-era AO.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year">2026</span> Pietro Ferraiuolo · Built by hand with HTML, CSS &amp; vanilla JS — no frameworks, no trackers.</p>
+    <p>Background image: <a href="https://esahubble.org/images/heic0611b/" target="_blank" rel="noopener">ESA/Hubble Space Telescope — Ultra Deep Field</a> (CC BY 4.0) · Fonts: Inter &amp; Space Grotesk (SIL OFL) · Icons: Lucide &amp; Simple Icons</p>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/js/main.js" defer></script>
+</body>
 </html>
-
-
