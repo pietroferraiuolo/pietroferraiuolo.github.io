@@ -172,8 +172,11 @@ html[data-theme='light'] .i-moon { display: none; }
 }
 .hero-inner { width: min(780px, 100%); }
 .hero-photo {
-  width: clamp(140px, 20vw, 176px); aspect-ratio: 1; object-fit: cover;
-  border-radius: 50%; margin: 0 auto 1.6rem;
+  /* width AND height must both be set here: the <img height="560"> attribute
+     otherwise wins over aspect-ratio and stretches the circle into an oval */
+  width: clamp(112px, 16vw, 152px); height: clamp(112px, 16vw, 152px);
+  aspect-ratio: 1; object-fit: cover; object-position: 50% 30%;
+  border-radius: 50%; margin: 0 auto 1.5rem;
   border: 3px solid rgba(245, 165, 36, .55);
   box-shadow: 0 0 0 8px rgba(245, 165, 36, .08), 0 12px 44px rgba(0, 0, 0, .5);
 }
